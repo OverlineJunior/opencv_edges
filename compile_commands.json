@@ -1,0 +1,6 @@
+[
+{
+  "directory": "f:\\opencv_edges",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/MD", "/O2", "/EHsc", "/IC:\\Users\\Junior\\AppData\\Local\\.xmake\\packages\\o\\opencv\\4.12.0\\9d9f04c943434df1a86f208d838d6d0f\\include", "/IC:\\Users\\Junior\\AppData\\Local\\.xmake\\packages\\f\\ffmpeg\\7.1\\c53cf462b5814beab5d0fe9fa1ca71b4\\include", "/DNDEBUG", "/Fobuild\\.objs\\opencv_edges\\windows\\x64\\release\\src\\main.cpp.obj", "src\\main.cpp", "-imsvc", "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include", "-imsvc", "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\ucrt", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\um", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\shared", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\winrt", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\cppwinrt", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um"],
+  "file": "src\\main.cpp"
+}]
