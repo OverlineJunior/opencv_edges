@@ -1,6 +1,6 @@
 #import "@preview/ilm:1.4.1": *
 
-#set text(lang: "en")
+#set text(lang: "pt")
 
 #show: ilm.with(
   title: [Detecção de Bordas com _OpenCV_],
