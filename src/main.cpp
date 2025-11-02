@@ -14,7 +14,7 @@ int main(int argc, char **argv) {
     // CV_16S é usado pois o Laplaciano pode 1. gerar valores negativos 2. e valores maiores que 255.
     // BORDER_CONSTANT expande a imagem com zeros nas bordas; aprendido em aula.
     cv::Mat edges16;
-    cv::Laplacian(imgGray, edges16, CV_16S, 3, 0.5, 0, cv::BORDER_CONSTANT);
+    cv::Laplacian(imgGray, edges16, CV_16S, 3, 1, 0, cv::BORDER_CONSTANT);
 
     // Converte para CV_8U, necessidade de cv::imshow.
     // Há a perda dos sinais negativos, que servem para indicar a direção da borda (claro -> escuro ou vice-versa).
@@ -28,6 +28,10 @@ int main(int argc, char **argv) {
     cv::imshow("Original (Tons de Cinza)", imgGray);
     cv::imshow("Bordas (Laplaciano)", edges8);
     cv::imshow("Bordas Realçadas", enhanced);
+
+    cv::imwrite("images/grayscale.png", imgGray);
+    cv::imwrite("images/edges.png", edges8);
+    cv::imwrite("images/enhanced.png", enhanced);
 
     cv::waitKey(0);
     return 0;

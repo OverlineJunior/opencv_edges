@@ -15,4 +15,6 @@ As dependências são automaticamente geridas pelo *xmake*.
 
 ## Ajuda
 
-Caso não seja possível usar o _xmake_, há um executável compilado no _Windows_ em `opencv_edges/build/windows/x64/release/opencv_edges.exe`.
+- Caso não seja possível usar o _xmake_, há um executável compilado no _Windows_ em `opencv_edges/build/windows/x64/release/opencv_edges.exe`.
+
+- Caso queira mudar a imagem de entrada, basta trocar a imagem `opencv_edges/images/input.jpg` por outra de mesmo nome e extensão.
